@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.sky</groupId>
+    <artifactId>sky-take-out-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>sky-server</module>
+        <module>sky-common</module>
+        <module>sky-pojo</module>
+        <module>aliyun-oss-spring-boot-starter</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.34</lombok.version>
+        <mybatis.version>3.0.4</mybatis.version>
+        <mysql.connector.version>8.2.0</mysql.connector.version>
+        <sky.pojo.version>1.0-SNAPSHOT</sky.pojo.version>
+        <sky.common.version>1.0-SNAPSHOT</sky.common.version>
+        <jwt.version>4.4.0</jwt.version>
+        <fastjson.version>2.0.53</fastjson.version>
+        <pagehelper.version>1.4.7</pagehelper.version>
+        <spring.boot.starter.aop.version>3.3.5</spring.boot.starter.aop.version>
+        <spring.boot.starter.data.redis.version>3.4.0</spring.boot.starter.data.redis.version>
+        <org.apache.httpcomponents.version>4.5.14</org.apache.httpcomponents.version>
+        <aliyun.oss.spring.boot.starter.version>1.0-SNAPSHOT</aliyun.oss.spring.boot.starter.version>
+        <jackson.datatype.jsr310.version>2.18.1</jackson.datatype.jsr310.version>
+        <spring.boot.starter.cache.version>3.4.3</spring.boot.starter.cache.version>
+        <jackson.databind.version>2.18.2</jackson.databind.version>
+        <wechatpay.apache.httpclient.version>0.4.8</wechatpay.apache.httpclient.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <druid.spring.boot.stater.version>1.2.1</druid.spring.boot.stater.version>
+        <spring.boot.starter.websocket.version>3.4.0</spring.boot.starter.websocket.version>
+        <commons-lang3.version>3.17.0</commons-lang3.version>
+        <apache.poi.version>5.4.0</apache.poi.version>
+    </properties>
+    <!--    父工程中用于版本控制-->
+    <dependencyManagement>
+        <dependencies>
+            <!--            poi与poi-ooxml的版本必须一致-->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${apache.poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${apache.poi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
+                <version>${spring.boot.starter.websocket.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.spring.boot.stater.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons.lang.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.wechatpay-apiv3</groupId>
+                <artifactId>wechatpay-apache-httpclient</artifactId>
+                <version>${wechatpay.apache.httpclient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.databind.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-cache</artifactId>
+                <version>${spring.boot.starter.cache.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.datatype.jsr310.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.sky</groupId>
+                <artifactId>aliyun-oss-spring-boot-starter</artifactId>
+                <version>${aliyun.oss.spring.boot.starter.version}</version>
+            </dependency>
+            <!--        导入HttpClient-->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${org.apache.httpcomponents.version}</version>
+            </dependency>
+            <!--        redis Java 客户端：spring data redis-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${spring.boot.starter.data.redis.version}</version>
+            </dependency>
+            <!--            导入Spring-AOP依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring.boot.starter.aop.version}</version>
+            </dependency>
+            <!--        导入分页插件-->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.version}</version>
+            </dependency>
+            <!--     导入fastjson：将实例属性转化成json字符串-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <!--        导入mybatis依赖-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version> <!-- 确保使用与Spring Boot 3.x兼容的版本 -->
+            </dependency>
+            <!--        mysql驱动依赖-->
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>${mysql.connector.version}</version>
+            </dependency>
+            <!--        导入pojo模块-->
+            <dependency>
+                <groupId>com.sky</groupId>
+                <artifactId>sky-pojo</artifactId>
+                <version>${sky.pojo.version}</version>
+            </dependency>
+            <!--        导入common模块-->
+            <dependency>
+                <groupId>com.sky</groupId>
+                <artifactId>sky-common</artifactId>
+                <version>${sky.common.version}</version>
+            </dependency>
+            <!--          jwt依赖-->
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+    <!--    父工程中导入的依赖-->
+    <dependencies>
+        <!--        lombok依赖-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <!--        spring-boot起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <!--spring-boot-test起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--        spring-boot-web起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>

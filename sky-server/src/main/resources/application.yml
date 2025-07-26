@@ -1,0 +1,78 @@
+#-------------------------------------------默认必须配置------------------------------------------------------
+# 项目端口配置
+server:
+  port: 8080
+
+spring:
+  #  用于指定当前配置文件所使用的环境
+  profiles:
+    active: dev #开发环境
+  application:
+    name: sky-server
+  datasource:
+    url: jdbc:mysql://${sky.datasource.host}:${sky.datasource.port}/${sky.datasource.database}
+    username: ${sky.datasource.username}
+    password: ${sky.datasource.password}
+    driver-class-name: ${sky.datasource.driver-class-name}
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 10MB # 更推荐使用人类可读的方式指定大小
+      max-request-size: 1GB # 更推荐使用人类可读的方式指定大小
+  data:
+    redis:
+      host: ${redis.host}
+      port: ${redis.port}
+      password: ${redis.password}
+      database: ${redis.database}
+
+# 控制台显示sql语句；将数据库的字段的下划线自动转换为驼峰命名
+mybatis:
+  configuration:
+    # 配置日志实现类为标准输出实现类，用于在控制台输出MyBatis的SQL语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启自动驼峰命名规则映射，将数据库中的下划线命名自动转换为Java中的驼峰命名
+    map-underscore-to-camel-case: true
+
+logging:
+  # 设置日志级别，用于控制日志的详细程度
+  level:
+    # 针对特定包或类设置日志级别为 DEBUG
+    org.springframework.jdbc.support.JdbcTransactionManager: DEBUG
+# ----------------------------------------------自定义配置----------------------------------------------------------
+# 用于生成jwt令牌配置
+com:
+  sky:
+    jwt:
+      admin-key: ${sky.jwt.admin-key}
+      admin-expire: ${sky.jwt.admin-expire}
+      admin-token-name: ${sky.jwt.admin-token-name}
+
+      user-key: ${sky.jwt.user-key}
+      user-expire: ${sky.jwt.user-expire}
+      user-token-name: ${sky.jwt.user-token-name}
+
+    wechat:
+      appid: ${sky.wechat.appid}
+      secret: ${sky.wechat.secret}
+      mchid: ${sky.wechat.mchid}
+      mchSerialNo: ${sky.wechat.mchSerialNo}
+      privateKeyFilePath: ${sky.wechat.privateKeyFilePath}
+      apiV3Key: ${sky.wechat.apiV3Key}
+      weChatPayCertFilePath: ${sky.wechat.weChatPayCertFilePath}
+      notifyUrl: ${sky.wechat.notifyUrl}
+      refundNotifyUrl: ${sky.wechat.refundNotifyUrl}
+
+# Aliyun oss的配置信息
+aliyun:
+  oss:
+    endpoint: ${aliyun.oss.endpoint}
+    access-key-id: ${aliyun.oss.access-key-id}
+    access-key-secret: ${aliyun.oss.access-key-secret}
+    bucket-name: ${aliyun.oss.bucket-name}
+
+
+
+

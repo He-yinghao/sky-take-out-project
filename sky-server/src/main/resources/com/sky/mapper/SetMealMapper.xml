@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sky.mapper.SetMealMapper">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO setmeal
+        (category_id, name, price, status, description, image, create_time, create_user, update_time, update_user)
+        VALUES (#{categoryId}, #{name}, #{price}, #{status}, #{description}, #{image}, #{createTime}, #{createUser},
+                #{updateTime}, #{updateUser})
+    </insert>
+
+    <delete id="deleteBatch">
+        DELETE FROM setmeal WHERE id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    <select id="pageConditionalSelectAll" resultType="com.sky.vo.SetmealVO">
+        SELECT * FROM setmeal
+        <where>
+            <if test="name!= null and name!= ''">
+                AND name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="categoryId!= null">
+                AND category_id = #{categoryId}
+            </if>
+            <if test="status!= null">
+                AND status = #{status}
+            </if>
+        </where>
+        ORDER BY id DESC
+    </select>
+    <select id="getSetmealByIds" resultType="com.sky.entity.SetMeal">
+        SELECT * FROM setmeal
+        WHERE id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+
+    <select id="list" parameterType="com.sky.entity.SetMeal" resultType="com.sky.entity.SetMeal">
+        select * from setmeal
+        <where>
+            <if test="name != null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="categoryId != null">
+                and category_id = #{categoryId}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+
+    <select id="getDishItemBySetmealId" resultType="com.sky.vo.DishItemVO">
+        SELECT sd.name, sd.copies, d.image, d.description
+        FROM setmeal_dish sd
+        LEFT JOIN dish d ON sd.dish_id = d.id
+        WHERE sd.setmeal_id = #{setmeal.setmealId}
+        <if test="setmeal.status != null">
+            AND sd.status = #{setmeal.status}
+        </if>
+    </select>
+
+</mapper>
+

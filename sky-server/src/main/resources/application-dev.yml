@@ -1,0 +1,45 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: "123456"  # 使用引号确保密码中的特殊字符不会引起解析问题
+
+  jwt:
+    admin-key: my-spring-boot-project
+    admin-expire: 1728000000 #  以毫秒为单位
+    admin-token-name: token
+
+    user-key: my-spring-boot-project
+    user-expire: 1728000000
+    user-token-name: authentication
+
+  wechat:
+    appid: wx4b3e8e9802dcb93d
+    secret: a0dd665ebda0685681a95c7805189d57
+    mchid: 123
+    mchSerialNo: 123
+    privateKeyFilePath: 123
+    apiV3Key: 213
+    weChatPayCertFilePath: 213
+    notifyUrl: 123
+    refundNotifyUrl: 123
+
+
+aliyun:
+  oss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: "********"
+    access-key-secret: "********"
+    bucket-name: web-java-hyh
+
+redis:
+  port: 6379
+  host: localhost
+  password: "123456"  # 使用引号确保密码中的特殊字符不会引起解析问题
+  database: 0
+
+
+

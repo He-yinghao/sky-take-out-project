@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="298a20b2-9feb-4991-bf5b-ebc088aa6627" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Exception" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://E:/java/jdk23/lib/src.zip!/java.base/java/lang/Throwable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/java/maven/mvn_repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar!/lombok/extern/slf4j/Slf4j.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\java\maven\apache-maven-3.9.9" />
+        <option name="localRepository" value="E:\java\maven\mvn_repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\java\maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pcNwSKBWiCv1FW3RiJhI8zStBc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.testGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HttpClientTest.testPost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyPojoApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.generateJwt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.md5Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.parseJwt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SkyServerApplicationTests.testStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.aliyun-oss-spring-boot-starter [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.aliyun-oss-spring-boot-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.aliyun-oss-spring-boot-starter [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-common [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-pojo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-pojo [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-server [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-server [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-server [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-spring-boot-take-out-project [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-spring-boot-take-out-project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-take-out-project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-take-out-project [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sky-take-out-project [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SkyServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Backend/sky-take-out-project/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43843496&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sky.service.impl" />
+      <recent name="com.sky.service" />
+      <recent name="com.sky.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\main\resources\template" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\main\java\com\sky\task" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\main\java\com\sky\config" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\main\java\com\sky\websocket" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\main\java\com\sky\controller\notify" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\aliyun-oss-spring-boot-starter\src\main\resources\META-INF\spring" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\aliyun-oss-spring-boot-starter\src\main\resources\META-INF" />
+      <recent name="D:\Java\Backend\sky-spring-boot-take-out-project\sky-server\src\test\java\com\sky" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sky.config" />
+      <recent name="com.sky.interceptor" />
+      <recent name="com.sky.utils" />
+      <recent name="com.sky.properties" />
+      <recent name="com.sky.controller.user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SkyServerApplication">
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.ThreadLocalTest" />
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.HttpClientTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyServerApplicationTests.parseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.SkyServerApplicationTests" />
+      <option name="METHOD_NAME" value="parseJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyServerApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.SkyServerApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sky.SkyServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SkyServerApplication" />
+        <item itemvalue="JUnit.SkyServerApplicationTests.test" />
+        <item itemvalue="JUnit.SkyServerApplicationTests.parseJwt" />
+        <item itemvalue="JUnit.HttpClientTest.test" />
+        <item itemvalue="Application.ThreadLocalTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="298a20b2-9feb-4991-bf5b-ebc088aa6627" name="Changes" comment="" />
+      <created>1733061643522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733061643522</updated>
+      <workItem from="1733061644571" duration="650000" />
+      <workItem from="1733062302696" duration="2000" />
+      <workItem from="1733062522854" duration="2403000" />
+      <workItem from="1733064938279" duration="621000" />
+      <workItem from="1733105232952" duration="15111000" />
+      <workItem from="1733153319463" duration="520000" />
+      <workItem from="1733198089380" duration="74000" />
+      <workItem from="1733198176872" duration="136000" />
+      <workItem from="1733198320398" duration="38000" />
+      <workItem from="1733198377918" duration="306000" />
+      <workItem from="1733198694747" duration="83000" />
+      <workItem from="1733198860760" duration="45000" />
+      <workItem from="1733198945484" duration="9671000" />
+      <workItem from="1733210426871" duration="26051000" />
+      <workItem from="1733275844217" duration="4196000" />
+      <workItem from="1733320066890" duration="502000" />
+      <workItem from="1733320731574" duration="240000" />
+      <workItem from="1733320980930" duration="4294000" />
+      <workItem from="1733367962052" duration="843000" />
+      <workItem from="1733368849537" duration="11951000" />
+      <workItem from="1733404911919" duration="2998000" />
+      <workItem from="1733452271378" duration="1375000" />
+      <workItem from="1733453673831" duration="34000" />
+      <workItem from="1733453731084" duration="15983000" />
+      <workItem from="1733471055100" duration="1756000" />
+      <workItem from="1733478296912" duration="1724000" />
+      <workItem from="1733488407517" duration="1436000" />
+      <workItem from="1733489858040" duration="7904000" />
+      <workItem from="1733542714241" duration="1003000" />
+      <workItem from="1733544212808" duration="10258000" />
+      <workItem from="1733580362189" duration="4588000" />
+      <workItem from="1733626607126" duration="12785000" />
+      <workItem from="1733666063375" duration="1305000" />
+      <workItem from="1733916797692" duration="2502000" />
+      <workItem from="1734330525941" duration="866000" />
+      <workItem from="1734331495912" duration="6310000" />
+      <workItem from="1734351054157" duration="3000" />
+      <workItem from="1734353719616" duration="36000" />
+      <workItem from="1734609246305" duration="385000" />
+      <workItem from="1734609693594" duration="892000" />
+      <workItem from="1734959912187" duration="11000" />
+      <workItem from="1739698117085" duration="842000" />
+      <workItem from="1739699041620" duration="4047000" />
+      <workItem from="1739885389160" duration="5213000" />
+      <workItem from="1739933440035" duration="10432000" />
+      <workItem from="1739969506995" duration="3954000" />
+      <workItem from="1739975361895" duration="1212000" />
+      <workItem from="1740027667049" duration="18449000" />
+      <workItem from="1740061915917" duration="1241000" />
+      <workItem from="1740207827634" duration="719000" />
+      <workItem from="1740211892844" duration="13577000" />
+      <workItem from="1740286492245" duration="17126000" />
+      <workItem from="1740317649908" duration="4096000" />
+      <workItem from="1740363615252" duration="5006000" />
+      <workItem from="1740448498700" duration="856000" />
+      <workItem from="1740449364868" duration="22373000" />
+      <workItem from="1740534898126" duration="19661000" />
+      <workItem from="1740621705676" duration="6432000" />
+      <workItem from="1740649977017" duration="239000" />
+      <workItem from="1740650468061" duration="21000" />
+      <workItem from="1740651732304" duration="18000" />
+      <workItem from="1740652636648" duration="590000" />
+      <workItem from="1740665553249" duration="1223000" />
+      <workItem from="1740706862457" duration="31000" />
+      <workItem from="1740798823933" duration="2136000" />
+      <workItem from="1740802027358" duration="1657000" />
+      <workItem from="1740807154997" duration="136000" />
+      <workItem from="1740810214980" duration="614000" />
+      <workItem from="1740811288918" duration="1001000" />
+      <workItem from="1740814580143" duration="663000" />
+      <workItem from="1740818594448" duration="868000" />
+      <workItem from="1740840369529" duration="19000" />
+      <workItem from="1740891222898" duration="2843000" />
+      <workItem from="1740913260907" duration="137000" />
+      <workItem from="1740972956475" duration="646000" />
+      <workItem from="1741270561992" duration="924000" />
+      <workItem from="1741315492738" duration="401000" />
+      <workItem from="1741488641326" duration="402000" />
+      <workItem from="1741610293856" duration="1245000" />
+      <workItem from="1741675973120" duration="1961000" />
+      <workItem from="1742112855028" duration="2007000" />
+      <workItem from="1742121890673" duration="3000" />
+      <workItem from="1742122879380" duration="1629000" />
+      <workItem from="1742194043331" duration="27000" />
+      <workItem from="1742477176792" duration="2484000" />
+      <workItem from="1742479678417" duration="386000" />
+      <workItem from="1742654015246" duration="623000" />
+      <workItem from="1742655378843" duration="198000" />
+      <workItem from="1742973180711" duration="360000" />
+      <workItem from="1742973565241" duration="3057000" />
+      <workItem from="1743480221323" duration="895000" />
+      <workItem from="1744465070835" duration="66000" />
+      <workItem from="1744466515116" duration="485000" />
+      <workItem from="1745806204022" duration="1998000" />
+      <workItem from="1745811002366" duration="699000" />
+      <workItem from="1745811776381" duration="140000" />
+      <workItem from="1745838903619" duration="2858000" />
+      <workItem from="1745895224669" duration="1913000" />
+      <workItem from="1746521684987" duration="163000" />
+      <workItem from="1746521859659" duration="8305000" />
+      <workItem from="1746688749155" duration="2004000" />
+      <workItem from="1746714106862" duration="680000" />
+      <workItem from="1746714846339" duration="1467000" />
+      <workItem from="1746852713855" duration="135000" />
+      <workItem from="1746852916574" duration="3120000" />
+      <workItem from="1747014620252" duration="1225000" />
+      <workItem from="1747185681506" duration="1830000" />
+      <workItem from="1747190447894" duration="10000" />
+      <workItem from="1747315184822" duration="3055000" />
+      <workItem from="1747724958452" duration="3246000" />
+      <workItem from="1747894828456" duration="1044000" />
+      <workItem from="1747895910309" duration="685000" />
+      <workItem from="1747923449129" duration="265000" />
+      <workItem from="1748413650486" duration="26000" />
+      <workItem from="1748685193405" duration="73000" />
+      <workItem from="1748712311092" duration="4000" />
+      <workItem from="1749010836170" duration="708000" />
+      <workItem from="1749714125243" duration="7398000" />
+      <workItem from="1749777549309" duration="628000" />
+      <workItem from="1750070407033" duration="834000" />
+      <workItem from="1752329860393" duration="3000" />
+      <workItem from="1752330268129" duration="396000" />
+      <workItem from="1752923312532" duration="1255000" />
+      <workItem from="1753001224611" duration="671000" />
+      <workItem from="1753005783732" duration="1886000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
